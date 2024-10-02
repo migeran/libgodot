@@ -155,7 +155,7 @@ fi
 
 if [ "$target_arch" = "arm64" ]
 then
-    if [ "$target_platform" = "ios" ] || [ "$†arget_platform" = "macos" ]
+    if [ "$target_platform" = "ios" ] || [ "$target_platform" = "macos" ]
     then
         target_build_options="$target_build_options metal=true"
     fi
